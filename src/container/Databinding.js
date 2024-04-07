@@ -20,7 +20,7 @@ function Databinding(){
             </h4>
             <div>
                 <input type="text" value={data.name} onChange={handleChange}></input>
-                <input type="text" value={data.age}></input>
+                <input type="text" value={data.age} onChange={handleChange}></input>
             </div>
         </div>
     )
